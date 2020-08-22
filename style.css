@@ -1,0 +1,50 @@
+body {
+    font-family: 'Satisfy', cursive;
+    background: linear-gradient(to right, rgb(241, 201, 208), rgb(238, 145, 165));
+    min-height: 30rem;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(248, 227, 200);
+    padding: 20px 20px;
+    width: 75rem;
+    height: 30rem;
+    border-left: 3px solid #f0e9af;
+}
+
+.quote-text {
+    min-height: 20vh;
+    font-weight: lighter;
+}
+
+.container h1 {
+    font-size: 50px;
+    text-align: left;
+}
+
+.container p {
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+#btn {
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 20px 20px;
+    background-color: burlywood;
+}
+
+#btn:hover {
+    color: chocolate;
+    background-color: #f5ad99;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container {
+        padding: 20px 20px;
+        width: 20rem;
+        height: 50rem;
+    }
+  }
