@@ -6,10 +6,12 @@ body {
 }
 
 .container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(248, 227, 200);
-    padding: 20px 20px;
-    width: 75rem;
-    height: 30rem;
+    padding: 20px;
     border-left: 3px solid #f0e9af;
 }
 
